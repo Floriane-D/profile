@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+  line-height:20px;
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  color: #2e5266;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #474a48;
+}
+
+h2 {
+  font-size: 19px;
+  line-height: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 5px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  color: #6e8898;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #2e5266;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin: 20px;
+  border-top: 1px solid #dee2d6;
+  border-right: 1px solid #dee2d6;
+  border-bottom: 1px solid #dee2d6;
+  border-left: 1px solid #dee2d6;
+  border-radius: 15px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid #dee2d6;
+}
+
+.movie-pic {
+  height: 170px;
+  width: 120px;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #474a48;
+  color: white;
+  padding: 8px;
+  border-radius: 5%;
+}
